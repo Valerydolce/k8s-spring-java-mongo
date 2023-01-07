@@ -41,6 +41,20 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Yvalcorp RELEASES Nexus Repository</name>
+	      <url>http://192.168.56.200:8000/repository/k8s-springapp/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Yvalcorp SNAPSHOT Nexus Repository </name>
+	      <url>http://192.168.56.7:8081/repository/tesla-fe-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
